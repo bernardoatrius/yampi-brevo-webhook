@@ -26,7 +26,7 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         email: email,
         attributes: { FIRSTNAME: name.split(' ')[0] },
-        listIds: [2], // Subsitua pelo ID da sua lista na Brevo
+        listIds: [8], // Subsitua pelo ID da sua lista na Brevo
         updateEnabled: true,
       }),
     });
